@@ -1,0 +1,215 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container .image {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.container .menu-icon {
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  left: 42px;
+  top: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu-container {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  transition: 1s ease-in-out;
+}
+.menu-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.menu-content a {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  font-family: sans-serif;
+  transition: 0.3s ease-in-out;
+}
+
+.menu-content a:hover {
+  color: red;
+}
+.menu-container .closebtn {
+  position: absolute;
+  top: 36px;
+  right: 48px;
+  font-size: 30px;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+}
+
+/*Lightbox gallery
+div.gallery {
+  margin: 10px 2px;
+}
+
+.section {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #c4689a;
+}
+
+div.gallery:hover {
+  transition: 1s;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  align-content: center;
+} */
+.img-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px 20px;
+
+  /*background-color: #c4689a;*/
+  background-color: rgb(216, 166, 205);
+}
+
+.single-img {
+  padding: 10px 38px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img:hover {
+  opacity: 0.5;
+  transition: 0.9s;
+}
+
+/*For Price list section*/
+
+.section {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.section-dark {
+  padding: 40px;
+  /*background-color: rgb(233, 230, 195);*/
+  background-color: rgb(241, 235, 197);
+}
+
+/* Three equal columns that floats next to each other 
+ROWS FOR PRICE LIST*/
+
+.columns {
+  border-radius: 10px black;
+  border: 5px solid black;
+  align-items: center;
+  width: 18.99999%;
+  padding: 25px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 15px 50px;
+}
+.row {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h1,
+h2 {
+  font-family: "Lobster", cursive;
+}
+
+/*FOOTER*/
+footer {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+/*MOBILE*/
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 24.99999%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container .menu-icon {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    overflow: hidden;
+  }
+}
