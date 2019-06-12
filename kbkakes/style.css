@@ -137,7 +137,9 @@ img:hover {
   opacity: 0.5;
   transition: 0.9s;
 }
-
+.card {
+  padding: 10px;
+}
 /*For Price list section*/
 
 .section {
@@ -150,6 +152,12 @@ img:hover {
   padding: 40px;
   /*background-color: rgb(233, 230, 195);*/
   background-color: rgb(241, 235, 197);
+}
+
+#flavour-text,
+#myjourney-text {
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
 }
 
 /* Three equal columns that floats next to each other 
