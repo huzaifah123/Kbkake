@@ -2,6 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 .container .image {
   position: absolute;
   width: 100vw;
@@ -123,7 +124,7 @@ div.desc {
   padding: 20px 10px 20px;
 
   /*background-color: #c4689a;*/
-  background-color: rgb(216, 166, 205);
+  /*background-color: rgb(216, 166, 205);*/
 }
 
 .single-img {
@@ -140,6 +141,16 @@ img:hover {
 .card {
   padding: 10px;
 }
+
+.container {
+  /*background-color: rgb(216, 166, 205);*/
+  background-color: #fedbee; /*Perfect colour shade*/
+}
+
+.container .gallery-container {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
 /*For Price list section*/
 
 .section {
@@ -151,7 +162,22 @@ img:hover {
 .section-dark {
   padding: 40px;
   /*background-color: rgb(233, 230, 195);*/
-  background-color: rgb(241, 235, 197);
+  /*background-color: rgb(241, 235, 197);*/
+  /*background-color: #fffeea;*/
+
+  border-radius: 5px;
+}
+
+#journeysection {
+  background-color: #fedbee; /*Perfect colour shade*/
+}
+
+#getintouchsection {
+  background-color: #fffeea;
+}
+
+.in-div {
+  background-color: white;
 }
 
 #flavour-text,
@@ -162,7 +188,9 @@ img:hover {
 
 /* Three equal columns that floats next to each other 
 ROWS FOR PRICE LIST*/
-
+#Pricelist {
+  background-color: #fffeea;
+}
 .columns {
   border-radius: 10px black;
   border: 5px solid black;
