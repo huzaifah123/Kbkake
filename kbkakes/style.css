@@ -46,7 +46,7 @@ body {
 }
 
 .menu-content a:hover {
-  color: red;
+  color: #fedbee;
 }
 .menu-container .closebtn {
   position: absolute;
@@ -144,11 +144,11 @@ img:hover {
 
 .container {
   /*background-color: rgb(216, 166, 205);*/
-  background-color: #fedbee; /*Perfect colour shade*/
+  background-color: #fffeea;
 }
 
 .container .gallery-container {
-  padding-top: 30px;
+  /*padding-top: 30px;*/
   padding-bottom: 20px;
 }
 /*For Price list section*/
@@ -203,7 +203,7 @@ ROWS FOR PRICE LIST*/
 }
 .columns {
   border-radius: 10px black;
-  border: 5px solid black;
+  border: 2px solid black;
   align-items: center;
   width: 18.99999%;
   padding: 25px;
@@ -232,7 +232,7 @@ h1 {
 
 h1,
 h2 {
-  font-family: "Lobster", cursive;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*FOOTER*/
