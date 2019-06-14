@@ -168,6 +168,11 @@ img:hover {
   border-radius: 5px;
 }
 
+#gallery-text {
+  text-align: center;
+  padding-top: 30px;
+}
+
 #journeysection {
   background-color: #fedbee; /*Perfect colour shade*/
 }
@@ -177,13 +182,18 @@ img:hover {
 }
 
 .in-div {
-  background-color: white;
+  padding: 0 40px;
+  line-height: 26px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
+#gallery-font,
 #flavour-text,
 #myjourney-text {
+  text-align: center;
   font-size: 16px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Three equal columns that floats next to each other 
@@ -198,8 +208,8 @@ ROWS FOR PRICE LIST*/
   width: 18.99999%;
   padding: 25px;
   margin: 20px;
+  font-family: "Montserrat", sans-serif;
   background-color: white;
-  border-radius: 15px 50px;
 }
 .row {
   flex-direction: row;
@@ -217,6 +227,7 @@ ROWS FOR PRICE LIST*/
 
 h1 {
   font-size: 30px;
+  margin: 0 auto 20px;
 }
 
 h1,
@@ -229,6 +240,7 @@ footer {
   text-align: center;
   font-size: 15px;
   margin-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*MOBILE*/
