@@ -1,9 +1,12 @@
+// MENU
 function closeMenu() {
   document.getElementById("navbar").style.height = "0%";
 }
 function openMenu() {
   document.getElementById("navbar").style.height = "100%";
 }
+
+// light box
 $(function() {
   $("#portfolio").magnificPopup({
     delegate: "a",
@@ -19,13 +22,16 @@ $(function() {
     }
   });
 });
+
 // MDB Lightbox Init
 $(function() {
   $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
 });
 
+// lighbox gallery
 baguetteBox.run(".tz-gallery");
 
+// Read more icon
 function toggleText(btn, id) {
   var e = document.getElementById(id);
   if (e.style.display == "block") {
