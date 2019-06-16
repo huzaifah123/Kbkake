@@ -25,3 +25,14 @@ $(function() {
 });
 
 baguetteBox.run(".tz-gallery");
+
+function toggleText(btn, id) {
+  var e = document.getElementById(id);
+  if (e.style.display == "block") {
+    e.style.display = "none";
+    btn.innerHTML = "Read More";
+  } else {
+    e.style.display = "block";
+    btn.innerHTML = "Show Less";
+  }
+}
