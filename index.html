@@ -28,31 +28,40 @@
   </head>
 
   <body>
-    <!--MENU-->
-    <div class="container">
-      <span class="menu-icon" onclick="openMenu()">&#9776;</span>
-      <div class="img"></div>
-    </div>
-    <div class="row" style="text-align: center; top: -50px;">
-      <div class="col-sm-4"></div>
-      <div class="col-sm-4"></div>
-        <img
-          src="images/logo.jpg"
-          style="width: 240px; height: 45px; padding: 40px;"
-        />
-      </div>
-    </div>
 
-    <!--NAVIGATION MENU-->
+    <!--HEADER-->
+    <header>
+        
+         <!--NAVIGATION MENU-->
     <div class="menu-container" id="navbar">
-      <span class="closebtn" onclick="closeMenu()">&times;</span>
-      <div class="menu-content">
-        <a href="#">Home</a>
-        <a href="#">Gallery</a>
-        <a href="#">My Journey</a>
-        <a href="#">Contact</a>
+        <span class="closebtn" onclick="closeMenu()">&times;</span>
+        <div class="menu-content">
+          <a href="#home">Home</a>
+          <a href="#myjourney">My Journey</a>
+          <a href="#portfolio">Gallery</a>
+          <a href="#prices">Prices</a>
+          <a href="#contact">Get in touch</a>
+        </div>
       </div>
-    </div>
+
+        <!--MENU-->
+    <div class="container">
+        <span class="menu-icon" onclick="openMenu()">&#9776;</span>
+        <div class="img"></div>
+      </div>
+      <div class="row"  style="text-align: center; top: -50px;">
+          <img
+            src="images/logo.jpg"
+            id = "logo"
+          />
+          <div class="insta-icon">
+              <a href="https://www.instagram.com/kbkakes/">
+                  <i class="fa fa-instagram"></i>
+                </a> 
+            </div>
+        </div>
+      </div>
+    </header>
 
     <!--SECTION FOR MY JOURNEY-->
     <section class="section section-dark" id="journeysection">
@@ -194,13 +203,9 @@
     </section>
 
   
-
-    
-    
-
     <!--SECTION FOR GET IN TOUCH-->
     
-    <section class="section section-dark" id="getintouchsection">
+    <section class="section section-dark" id="getintouchsection" >
         <h1>Get in touch!</h1>
         <div class="in-div">
         
@@ -218,12 +223,10 @@
         <div class="site-details">
             © 2019 KBKAKES || Developed by Huzaifah Mansoor. All rights reserved.
         </div>
-        <div class="social-icons">
-          <ul class="social">
+        <div class="footer-icon">
               <a href="https://www.instagram.com/kbkakes/">
                 <i class="fa fa-instagram"></i>
-              </a> 
-          </ul>
+              </a>
         </div>
       </div>
     </footer>
