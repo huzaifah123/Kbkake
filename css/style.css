@@ -290,6 +290,10 @@ footer {
   .columns {
     width: 40.99999%;
   }
+
+  .card-img-top {
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 600px) {

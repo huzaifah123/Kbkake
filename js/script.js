@@ -42,3 +42,16 @@ function toggleText(btn, id) {
     btn.innerHTML = "Show Less";
   }
 }
+
+//scroll animation
+$(document).ready(function() {
+  var controller = new ScrollMagic.Controller();
+
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: "fade-in",
+    reverse: false
+  })
+
+    .setClassToggle(".fade-in", "show")
+    .addTo(Controller);
+});
